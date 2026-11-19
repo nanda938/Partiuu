@@ -106,7 +106,7 @@
       acoes.push(link('Começar a explorar', '#/criar', 'btn btn-primary btn-lg', 'i-arrow-right'));
       acoes.push(link('Já tenho um perfil', '#/acesso', 'btn btn-ghost btn-lg'));
     }
-    box.append(hero({ eyebrow: 'Educação patrimonial · Rio de Janeiro', titulo: 'Conheça o Rio além dos lugares de sempre.',
+    box.append(hero({ eyebrow: 'Educação patrimonial · Rio de Janeiro', titulo: 'Conheça o Rio de Janeiro sem sair do lugar!',
       texto: 'Escolha um bairro, descubra seus patrimônios, cumpra missões e acompanhe a sua jornada pela cidade.', acoes }));
     const s = el('section', 'wrap-wide bloco passos');
     s.append(el('h2', 't-title', 'Como funciona'));
